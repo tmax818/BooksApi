@@ -22,7 +22,7 @@ spring.datasource.password=rootroot
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-to [application.properties](./src/main/resources/application.properties) allowed app to start w/o error
+    to [application.properties](./src/main/resources/application.properties) allowed app to start w/o error
 
 - added:
 
@@ -50,3 +50,9 @@ to [pom.xml](pom.xml) jic
 ## Services
 
 > Services are the business logic of our application. For example: a controller should never be doing something like creating 5 books.
+
+- create a service class: [BookService](src/main/java/tylermaxwell/booksapi/services/BookService.java)
+
+## Controller
+
+- create a BooksApi [controller](src/main/java/tylermaxwell/booksapi/controllers/BooksApi.java)
